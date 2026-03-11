@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Evangelion; /* set name */
+  src: url("fonts/NIS-JTC-Win-M9.ttf"); /* url of the font */
+}
+@font-face {
+  font-family: Helvetica-Bold; /* set name */
+  src: url("helvetica-bold.ttf"); /* url of the font */
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    cursor: url("img/leagueCursor.png"), auto;
+}
+a{
+    cursor:url("img/pointerCursor.png"), auto;
+}
+/* Black full background */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center; /* center column horizontally */
+}
+/* Page wrapper (optional but clean structure) */
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Center white column */
+.column {
+    width: 400px;
+    background-color: white;
+    max-height: calc(100vh - 2rem);
+    display: flex;
+    flex-direction: column; /* stack content vertically */
+    padding-top: 2.5rem;
+    gap: 2rem;
+
+    position: fixed;
+    top: 1rem;
+    overflow: auto;
+    scrollbar-width: none;
+}
+/* HEADER STUFF */
+.my-logo{
+    width:40px;
+    height: auto;
+    align-self: center;
+}
+.my-name{
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    color: #eaacd9;
+
+    font-family: 'Evangelion';
+    transform: scaleY(1.8) translateY(-0.4em);     /* increase vertical stretch */
+    transform-origin: top left; /* stretch downward from top */
+    line-height: 1.8;
+    font-size: 42px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+
+    padding-top:0.5rem;
+    padding-bottom: 4rem;
+}
+.bio{
+    align-self: center;
+    width: 45%;
+    text-align: justify;
+    text-align-last: justify; /* Explicitly justifies the last line */
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* THE CONTENT STACK */
+.content-stack{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.content-stack section{
+    aspect-ratio: 4/3;
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+.content-title{
+    font-family: 'Evangelion';
+
+    transform: scaleY(1.8) translateY(-0.4em);     /* increase vertical stretch */
+    transform-origin: top left; /* stretch downward from top */
+    line-height: 1.8;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+
+    align-self: center;
+    margin-top: auto;
+    padding-bottom: 8px;
+}
+
+.about-box{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.724), rgba(103, 33, 96, 0.761)), url("img/aboutImage.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+#aboutTitle{
+    margin-left: auto;
+    padding-right: 8px;
+}
+.portfolio-box{
+    background-image: linear-gradient(rgba(129, 8, 148, 0.288), rgba(255, 10, 10, 0.969)), url("img/portfolioImage.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.resume-box{
+    background-image: linear-gradient(rgba(32, 32, 33, 0.85), rgba(83, 116, 142, 0.678)), url("img/resumeImage.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+
+
+
+#aboutBtn{
+    background-color: black;
+    text-decoration: none;
+    border: none;
+    cursor:url("/img/pointerCursor.png"),auto;
+}
+#aboutContent {
+    display: none; /* Hidden by default */
+    background-color: rgb(255, 255, 255); /* w/ opacity */
+    position: fixed;
+    right: 7rem;
+    top: 7rem;
+    width: 300px;
+    aspect-ratio: 4/3;
+}
+.about-details{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+/* MODAL BUSINESS */
+#portfolioBtn{
+    text-decoration: none;
+    border: none;
+    cursor:url('./img/pointerCursor.png'),auto;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    z-index: 100; /* Sit on top */
+    align-self: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: #eaacdb00;
+    overflow: auto; /* Enable scroll if needed */
+  }
+  /* Modal Content/Box */
+ .modal-content {
+    background-color: rgb(255, 255, 255); /* w/ opacity */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 50%; /*Could be more or less, depending on screen size*/
+    z-index: 100; /* Sit on top */
+  }
+  .modal-pieces{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .modal-col{
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 8px;
+  }
+  .modal-col img {
+    margin-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* The Close Button */
+  .close {
+    display: none;
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor:url("/img/pointerCursor.png"),auto;
+  }
+
+/* ~~~~ CONTENT STACK END ~~~~~ */
+/* CONTACT SIDEBAR */
+.contact-sidebar {
+    /* Border */
+    border-style: solid;
+    border-color: white;
+    /* Fixed Positioning */
+    position: absolute;
+    left: 7rem;
+    top: 7rem;
+    width: 300px;
+    aspect-ratio: 4/3;
+
+    /* Flex Alignment */
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    z-index: -1;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0.5rem;
+    font-family: 'Evangelion';
+}
+.contact-text p{
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+    transform: scaleY(1.7) translateY(-0.4em);     /* increase vertical stretch */
+    transform-origin: top left; /* stretch downward from top */
+    line-height: 1.7;
+}
+.contact-line-1 { font-size: 20px; }
+.contact-line-2 { font-size: 24px; }
+.contact-line-3 { font-size: 36px; }
+
+.contact-links{
+    padding: 0.5rem;
+    font-family: Helvetica-Bold;
+    /* font-style: bold; */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+
+    transform: scaleY(1.6) translateY(-1em);
+    transform-origin: top left;
+    line-height: 1.6;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+#emailLink{
+    align-self: flex-start;
+}
+#linkedinLink{
+    align-self: flex-end;
+    margin-top: -0.7em;
+}
+.contact-links a{
+    text-decoration: none;
+    color: white;
+}
+.contact-links a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikki Babcock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./img/mylogo1.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <main class="page">
+        <div class="column">
+            <section>
+                <img src="/img/mylogo1.png" class="my-logo"/>
+                <h1 class="my-name">NIKKI BABCOCK</h1>
+                <p class="bio">computer scientist & visual designer in new york city</p>
+            </section>
+
+            <div class="content-stack">
+
+                <button id="aboutBtn">
+                    <section class="about-box">
+                        <h2 class="content-title" id="aboutTitle">ABOUT</h2>
+                    </section>
+                </button>
+
+                <div id="aboutContent">
+                    <p class="about-details">Hello there! I'm Nikki :]</p>
+                    <!-- <p class="about-details">I study computer science at <span style="color:rgb(107, 18, 128); font-weight: 800;">NYU.</span></p> -->
+                    <p class="about-details">I am a creative developer who believes tech should make the world better, design should be fun again, and 
+                        <span style="color: #eaacd9; font-weight: 800;">Girls' Generation</span> is the best kpop group of all time.</p>
+                    <p class="about-details">Let's talk!</p>
+                    <!-- <p class="about-details">I have worked for organizations like the
+                         <span style="color:rgb(105, 140, 236); font-weight: 800;">Yonsei University Esports Lab</span> in Seoul, South Korea, 
+                         <span style="color:rgb(72, 228, 111); font-weight: 800;">Why Regenerative</span> in NYC, and most recently as a marketing associate for <span style="font-style: italic;">New York Times</span> bestselling author 
+                         <span style="color:rgb(243, 56, 53); font-weight: 800;">Soman Chainani.</span> 
+                    </p>
+                    <p class="about-details"></p> -->
+                    <!-- <p class="about-details" style="font-weight: 600;">Check out my portfolio to learn more!</p> -->
+
+                </div>
+
+
+
+                <!-- Trigger/Open The Portfolio Modal -->
+                <button id="portfolioBtn">
+                    <section class="portfolio-box">
+                        <h2 class="content-title" id="portfolioTitle">PORTFOLIO</h2>
+                    </section>
+                </button>
+
+
+                <!-- The Modal -->
+                <div id="portfolioModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="modal-pieces">
+                            <!-- left col -->
+                            <div class="modal-col">
+                                <img src="./img/portfolioImage.jpg"/>
+                                <img src="./img/aboutImage.jpg"/>
+                                <img src="./img/portfolio/9-YuzuruGrunge.jpg"/>
+                            </div>
+                            <!-- right col -->
+                            <div class="modal-col">
+                                <img src="./img/portfolio/1-RY-on-WM.jpg"/>
+                                <img src="./img/portfolio/11.4.2-YuzuruPoster3COLOR2.jpg"/>
+                                <img src="./img/resumeImage.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <section class="resume-box">
+                    <h2 class="content-title" id="resumeTitle">RESUME</h2>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- CONTACT SIDEBAR -->
+    <aside class="contact-sidebar">
+        <div class="contact-text">
+            <p class="contact-line-1">MY</p>
+            <p class="contact-line-2">CONTACT &</p>
+            <p class="contact-line-3">LINKEDIN</p>
+        </div>
+        <!-- contact links -->
+        <div class="contact-links">
+            <a href="mailto:nb3483@nyu.edu" id="emailLink">EMAIL: CLICK</a>
+            <a href="https://www.linkedin.com/in/nikki-babcock/" target="_blank" id="linkedinLink">LinkedIn is here.</a>
+        </div>
+    </aside>
+
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+</html>
