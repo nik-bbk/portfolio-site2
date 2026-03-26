@@ -99,7 +99,7 @@ body {
 }
 .content-title{
     font-family: 'Evangelion';
-
+    color: black;
     transform: scaleY(1.8) translateY(-0.4em);     /* increase vertical stretch */
     transform-origin: top left; /* stretch downward from top */
     line-height: 1.8;
@@ -362,6 +362,9 @@ section {
 /* ── MOBILE ──────────────────────────────────────────────────── */
 @media (max-width: 700px) {
  
+    .my-name{
+        font-size: 2em;
+    }
     /* Full-width scrollable column, no fixed positioning */
     .column {
         width: 100%;
@@ -388,6 +391,8 @@ section {
     .modal-content {
         width: 92%;
         margin: 10% auto;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
  
     /* Stack modal columns vertically */
