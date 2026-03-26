@@ -49,16 +49,15 @@ window.onclick = function(event) {
  
 // Map each image filename to a description
 const imageDescriptions = {
-  "YoungWorldTOUR2-betterRes.jpg": "Young World Tour — poster design for a fictional indie music tour. Layered typography meets analog-inspired textures.",
-  "steffihuber.jpg": "Steffi Huber — personal branding and visual identity for an athlete. Clean, kinetic, and bold.",
-  "HollywoodYoungWorld.jpg": "Hollywood Young World — promotional graphic blending vintage Hollywood glamour with modern streetwear energy.",
-  "1-RY-on-WM.jpg": "RY on WM — editorial layout combining photography with expressive type treatments.",
-  "9-YuzuruGrunge.jpg": "Yuzuru Grunge — fan art poster with a raw, distressed aesthetic celebrating figure skater Yuzuru Hanyu.",
-  "DoaNCover.jpg": "Days of a Nightmare — book cover design. Dark, atmospheric, with strong typographic hierarchy.",
-  "DoaN-layoutpage.jpg": "Days of a Nightmare (Interior) — interior layout spread balancing readability with visual drama.",
-  "e33-YTthumbnail.jpg": "Episode 33 Thumbnail — YouTube thumbnail designed for maximum click-through with bold composition.",
-  "e35-YTthumbnail.jpg": "Episode 35 Thumbnail — continuation of the series thumbnail system, maintaining brand consistency.",
-  "11.4.2-YuzuruPoster3COLOR2.jpg": "Yuzuru Poster — three-color screen-print style poster. Minimal palette, maximum impact.",
+  "YoungWorldTOUR2-betterRes.jpg": "Young World Tour — (Photoshop) — Grunge announcement poster design for Soman Chainani's YOUNG WORLD national book tour.",
+  "steffihuber.jpg": "Character Poster (\"Steffi Huber\") — (Photoshop) — Marketing character poster for upcoming Penguin Random House novel release. Bauhaus style.",
+  "HollywoodYoungWorld.jpg": "Young World Hollywood — (Photoshop) — Promotional social graphic in a photorealistic style.",
+  "1-RY-on-WM.jpg": "Revolting Youth on Washington Monument — (Photoshop) — Promotional social graphic in a photorealistic style.",
+  "9-YuzuruGrunge.jpg": "Character Poster (\"Yuzuru Mori\") — (Photoshop) — Marketing character poster for upcoming Penguin Random House novel release. Brutalist style.",
+  "DoaNCover.jpg": "\"Diary of a Novel\" book cover and layout — (Adobe Illustrator) — Cover and interior design for 500+ page companion novel to YOUNG WORLD",
+  "e33-YTthumbnail.jpg": "Plot Twist Ep33 Thumbnail — YouTube thumbnail for award-winning writing podcast PLOT TWIST. Designed for maximum engagement with episode-specific themeing.",
+  "e35-YTthumbnail.jpg": "Plot Twist Ep35 Thumbnail — Continuation of the PLOT TWIST thumbnail series, maintaining episodic creativity.",
+  "11.4.2-YuzuruPoster3COLOR2.jpg": "Alternate Character Poster (\"Yuzuru Mori\") — Photoshop — Defining posted social media graphic on the official YOUNG WORLD marketing Instagram account: @revoltingyouthofficial.",
 };
  
 // Build the lightbox overlay

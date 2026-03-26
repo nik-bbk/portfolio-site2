@@ -401,7 +401,9 @@ section {
         top: 1rem;
         left: unset;
         right: 1rem;
-        font-size: 64px;
+        font-size: 48px;
+        color: black;
+        z-index: 300;
     }
  
     /* Lightbox fills the screen on mobile */
@@ -424,9 +426,12 @@ section {
         display: flex !important;
         padding: 2rem;
     }
+
+    .mobile-contact .contact-line-1 { font-size: 4.9vw; }
+    .mobile-contact .contact-line-2 { font-size: 5.4vw; }
+    .mobile-contact .contact-line-3 { font-size: 7.1vw; }
 }
  
-/* Mobile contact bar (hidden on desktop) */
  
 /* Mobile contact bar (hidden on desktop) */
 .mobile-contact {
@@ -462,7 +467,7 @@ section {
     transform: scaleY(1.6) translateY(-1em);
     transform-origin: top left;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 3.5vw;
     letter-spacing: 0.5px;
 }
 .mobile-contact .contact-links a {
