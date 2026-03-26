@@ -113,25 +113,35 @@ body {
 }
 
 .about-box{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.724), rgba(103, 33, 96, 0.761)), url("img/aboutImage.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.724), rgba(103, 33, 96, 0.761)), url("img/aboutImage.jpg"); */
+    background-image: url("img/aboutImage.jpg");
     background-size: cover;
     background-blend-mode: screen;
 }
 #aboutTitle{
     margin-left: auto;
     padding-right: 8px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 .portfolio-box{
-    background-image: linear-gradient(rgba(129, 8, 148, 0.288), rgba(255, 10, 10, 0.969)), url("img/portfolioImage.jpg");
+    /* background-image: linear-gradient(rgba(129, 8, 148, 0.288), rgba(255, 10, 10, 0.969)), url("img/portfolioImage.jpg"); */
+    background-image: url("img/portfolioImage.jpg");
     background-size: cover;
     background-blend-mode: screen;
 }
-.resume-box{
-    background-image: linear-gradient(rgba(32, 32, 33, 0.85), rgba(83, 116, 142, 0.678)), url("img/resumeImage.jpg");
-    background-size: cover;
-    background-blend-mode: screen;
+#portfolioTitle{
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
+.resume-box{
+    /* background-image: linear-gradient(rgba(32, 32, 33, 0.85), rgba(83, 116, 142, 0.678)), url("img/resumeImage.jpg"); */
+    background-image: url("img/resumeImage.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+#resumeTitle{
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
 
 
 
@@ -148,7 +158,8 @@ body {
     right: 7rem;
     top: 7rem;
     width: 300px;
-    aspect-ratio: 4/3;
+    height: auto;
+    padding: 16px;
 }
 .about-details{
     font-family: "IBM Plex Mono", monospace;
@@ -199,23 +210,29 @@ body {
     vertical-align: middle;
     width: 100%;
   }
+  .modal-col img:hover{
+    transform: scale(1.08);
+  }
   
   /* The Close Button */
   .close {
-    display: none;
+    position: fixed;
+    top: 40%;
+    left: 80%;
     color: #ffffff;
-    float: right;
-    font-size: 28px;
+    font-size: 128px;
     font-weight: bold;
   }
   .close:hover,
   .close:focus {
-    color: black;
+    color: rgb(255, 175, 223);
     text-decoration: none;
     cursor:url("/img/pointerCursor.png"),auto;
   }
 
 /* ~~~~ CONTENT STACK END ~~~~~ */
+
+
 /* CONTACT SIDEBAR */
 .contact-sidebar {
     /* Border */
