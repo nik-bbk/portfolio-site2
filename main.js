@@ -55,9 +55,9 @@ const imageDescriptions = {
   "1-RY-on-WM.jpg": "Revolting Youth on Washington Monument — (Photoshop) — Promotional social graphic in a photorealistic style.",
   "9-YuzuruGrunge.jpg": "Character Poster (\"Yuzuru Mori\") — (Photoshop) — Marketing character poster for upcoming Penguin Random House novel release. Brutalist style.",
   "DoaNCover.jpg": "\"Diary of a Novel\" book cover and layout — (Adobe Illustrator) — Cover and interior design for 500+ page companion novel to YOUNG WORLD",
-  "e33-YTthumbnail.jpg": "Plot Twist Ep33 Thumbnail — YouTube thumbnail for award-winning writing podcast PLOT TWIST. Designed for maximum engagement with episode-specific themeing.",
-  "e35-YTthumbnail.jpg": "Plot Twist Ep35 Thumbnail — Continuation of the PLOT TWIST thumbnail series, maintaining episodic creativity.",
-  "11.4.2-YuzuruPoster3COLOR2.jpg": "Alternate Character Poster (\"Yuzuru Mori\") — Photoshop — Defining posted social media graphic on the official YOUNG WORLD marketing Instagram account: @revoltingyouthofficial.",
+  "e33-YTthumbnail.jpg": "Plot Twist Ep33 Thumbnail — (Photoshop) — YouTube thumbnail for award-winning writing podcast PLOT TWIST. Designed for maximum engagement with episode-specific themeing.",
+  "e35-YTthumbnail.jpg": "Plot Twist Ep35 Thumbnail — (Photoshop) — Continuation of the PLOT TWIST thumbnail series, maintaining episodic creativity.",
+  "11.4.2-YuzuruPoster3COLOR2.jpg": "Alternate Character Poster (\"Yuzuru Mori\") — (Photoshop) — Defining posted social media graphic on the official YOUNG WORLD marketing Instagram account: @revoltingyouthofficial.",
 };
  
 // Build the lightbox overlay

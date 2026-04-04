@@ -123,6 +123,10 @@ body {
     padding-right: 8px;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
+.snsd{
+    text-decoration: none;
+    color: inherit;
+}
 .portfolio-box{
     /* background-image: linear-gradient(rgba(129, 8, 148, 0.288), rgba(255, 10, 10, 0.969)), url("img/portfolioImage.jpg"); */
     background-image: url("img/portfolioImage.jpg");
