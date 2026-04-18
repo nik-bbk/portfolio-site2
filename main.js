@@ -49,6 +49,7 @@ window.onclick = function(event) {
  
 // Map each image filename to a description
 const imageDescriptions = {
+  "ErikPoster2.jpg": "Character Poster (\"Erik Sundstrom\") — (Photoshop) — Marketing character poster for upcoming Penguin Random House novel release. Nordic-themed for a Swedish character.",
   "YoungWorldTOUR2-betterRes.jpg": "Young World Tour — (Photoshop) — Grunge announcement poster design for Soman Chainani's YOUNG WORLD national book tour.",
   "steffihuber.jpg": "Character Poster (\"Steffi Huber\") — (Photoshop) — Marketing character poster for upcoming Penguin Random House novel release. Bauhaus style.",
   "HollywoodYoungWorld.jpg": "Young World Hollywood — (Photoshop) — Promotional social graphic in a photorealistic style.",
